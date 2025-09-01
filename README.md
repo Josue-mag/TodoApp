@@ -154,20 +154,6 @@ npm run test:watch
 - ✅ **Testes de Performance**: Validação de requisitos não funcionais
 - ✅ **Testes de Interface**: Interações do usuário
 
-## 📚 Documentação Técnica
-
-### Arquivos de Documentação
-
-| Arquivo | Descrição |
-|---|---|
-| `Definicao_Problema_Necessidade.txt` | Definição do problema e necessidades |
-| `Especificacao_Requisitos_TodoList.txt` | Especificação completa de requisitos |
-| `Diagrama_Casos_de_Uso.txt` | Casos de uso do sistema |
-| `Diagrama_Classes.txt` | Estrutura de classes |
-| `Diagrama_Sequencia.txt` | Fluxos de execução |
-| `Guia_Visual_Diagramas.txt` | Guia para interpretação dos diagramas |
-| `README_TESTES.md` | Documentação específica de testes |
-
 
 ## 🤝 Contribuição
 

@@ -1,0 +1,27 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "Sistema de Lista de Tarefas com testes Jest",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"],
+    "collectCoverageFrom": [
+      "script.js",
+      "!node_modules/**"
+    ],
+    "coverageReporters": ["text", "lcov", "html"]
+  },
+  "keywords": ["todo", "javascript", "jest", "testing"],
+  "author": "Desenvolvedor",
+  "license": "MIT"
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-tasks"></i> Minha Lista de Tarefas</h1>
+        </header>
+        
+        <div class="todo-input">
+            <input type="text" id="taskInput" placeholder="Adicione uma nova tarefa..." maxlength="100">
+            <button id="addBtn"><i class="fas fa-plus"></i></button>
+        </div>
+        
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Todas</button>
+            <button class="filter-btn" data-filter="pending">Pendentes</button>
+            <button class="filter-btn" data-filter="completed">Concluídas</button>
+        </div>
+        
+        <div class="todo-list">
+            <ul id="taskList"></ul>
+        </div>
+        
+        <div class="stats">
+            <span id="totalTasks">0 tarefas</span>
+            <span id="completedTasks">0 concluídas</span>
+        </div>
+        
+        <div class="clear-section">
+            <button id="clearCompleted" class="clear-btn">
+                <i class="fas fa-trash"></i> Limpar Concluídas
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
